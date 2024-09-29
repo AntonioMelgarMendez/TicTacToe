@@ -1,0 +1,53 @@
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    border-spacing: 0.5em;
+    border-collapse: separate; 
+    background-color: white;
+  }
+  td {
+    width: 20vh;
+    height: 20vh;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .cell {
+    justify-content: center;
+    background-color:#263B46;
+    align-items: center;
+    font-size: 5em;
+
+  }
+  .cell.X {
+    color:#FFCA2E;
+    }
+  .cell.O {
+    color: #2FC8A8; 
+   }
+
+
+  p {
+    background-color: #263B46;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: #ffffff;
+    border: 0.3em white solid ;
+  }
+
+    
+  
